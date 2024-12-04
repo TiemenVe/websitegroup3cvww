@@ -8,8 +8,13 @@ export default function Page({ story, preview, socialtags, menu }) {
       "hero.colorcode",
       "leftrightblock.colorcode",
       "course.colorcode",
+      "artist.colorcode",
+      "artist.songs",
+      "song.colorcode",
+      "song.artist",
       "person.colorcode",
       "product.colorcode",
+      "location.colorcode",
       "course.teachers",
       "course.products",
       "list.elements"
@@ -36,7 +41,12 @@ export async function getStaticProps({ params }) {
       "course.colorcode",
       "person.colorcode",
       "product.colorcode",
+      "artist.colorcode",
+      "artist.songs",
+      "song.colorcode",
+      "song.artist",
       "course.teachers",
+      "location.colorcode",
       "course.products",
       "list.elements"
     ]

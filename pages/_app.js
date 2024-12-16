@@ -51,7 +51,7 @@ const components = {
   location: Location,
   artist: Artist,
   song: Song
-  region: Region
+  Region: RegionApp
 };
 
 storyblokInit({

@@ -47,7 +47,7 @@ export default class HeadComponent extends Component {
 	}
 
 	render() {
-		const gasource = "https://www.googletagmanager.com/gtag/js?id="+process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS;
+		const gasource = "https://www.googletagmanager.com/gtag/js?id=G-21WYZWK83B"+process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS;
 		return <>
 			<Head>
 				<link rel="preconnect" href="https://fonts.googleapis.com" />

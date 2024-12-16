@@ -27,7 +27,8 @@ import Product from '../components/specificComponents/Product/Product';
 import Location from '../components/specificComponents/Location/Location';
 import Artist from '../components/specificComponents/Artist/Artist';
 import Song from '../components/specificComponents/Song/Song';
-import Region from '../components/specificComponents/Region/Region';
+import Region from '../components/specificComponents/Region/Region.js';
+
 
 
 
@@ -52,7 +53,7 @@ const components = {
   location: Location,
   artist: Artist,
   song: Song
-  Region: Region
+  region: Region
 };
 
 storyblokInit({

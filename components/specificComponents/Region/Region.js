@@ -1,7 +1,6 @@
 ﻿import React, { Component } from "react";
 import css from "./Region.module.scss";
 import { storyblokEditable, StoryblokComponent } from "@storyblok/react";
-
 export default class Region extends Component {
 
 	constructor(props) {
@@ -23,6 +22,7 @@ export default class Region extends Component {
 								
 							</div>
 						</div>
+						
 						{/* <div className={[css["box"], css["experience"]].join(" ")}>
 							<h2>Experience</h2>
 							{this.props.blok.experiences.map((nestedBlok) => (

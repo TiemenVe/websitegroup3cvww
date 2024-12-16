@@ -28,6 +28,7 @@ import Location from '../components/specificComponents/Location/Location';
 import Artist from '../components/specificComponents/Artist/Artist';
 import Song from '../components/specificComponents/Song/Song';
 import Region from '../components/specificComponents/Region/Region';
+import Food from '../components/specificComponents/Food/Food';
 
 
 
@@ -53,7 +54,8 @@ const components = {
   location: Location,
   artist: Artist,
   song: Song,
-  region: Region
+  region: Region,
+  food: Food
 };
 
 storyblokInit({

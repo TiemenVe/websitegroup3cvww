@@ -10,6 +10,7 @@ export default function Page({ story, preview, socialtags, menu }) {
       "course.colorcode",
       "artist.colorcode",
       "song.colorcode",
+      "food.colorcode",
       "person.colorcode",
       "product.colorcode",
       "location.colorcode",
@@ -17,7 +18,10 @@ export default function Page({ story, preview, socialtags, menu }) {
       "song.artist",
       "course.teachers",
       "course.products",
-      "list.elements"
+      "list.elements",
+      "region.colorcode",
+      "region.foods",
+      "food.region"
     ]
   }, preview);
 
@@ -41,6 +45,7 @@ export async function getStaticProps({ params }) {
       "course.colorcode",
       "artist.colorcode",
       "song.colorcode",
+      "food.colorcode",
       "person.colorcode",
       "product.colorcode",
       "location.colorcode",
@@ -48,7 +53,10 @@ export async function getStaticProps({ params }) {
       "song.artist",
       "course.teachers",
       "course.products",
-      "list.elements"
+      "list.elements",
+      "region.colorcode",
+      "region.foods",
+      "food.region"
     ]
   };
 

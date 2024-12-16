@@ -50,15 +50,6 @@ export default class HeadComponent extends Component {
 		const gasource = "https://www.googletagmanager.com/gtag/js?id=G-21WYZWK83B"+process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS;
 		return <>
 			<Head>
-			<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-21WYZWK83B"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-21WYZWK83B');
-</script>
 				<link rel="preconnect" href="https://fonts.googleapis.com" />
 				<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 				<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />

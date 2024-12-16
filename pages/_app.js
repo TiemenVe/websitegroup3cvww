@@ -30,6 +30,7 @@ import Song from '../components/specificComponents/Song/Song';
 import Region from '../components/specificComponents/Region/Region';
 
 
+
 const components = {
   person: Teacher,
   experience: Experience,
@@ -51,7 +52,7 @@ const components = {
   location: Location,
   artist: Artist,
   song: Song
-  Region: RegionApp
+  region: Region
 };
 
 storyblokInit({
